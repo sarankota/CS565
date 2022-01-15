@@ -37,7 +37,7 @@ public class Client
 			System.out.println(i); 
 		} 
 
-		// string to read message from input 
+		// String to read message from input 
 		String line = ""; 
 
 		 
