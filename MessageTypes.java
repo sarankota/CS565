@@ -5,10 +5,6 @@
  */
 package chatapp;
 
-/**
- *
- * @author lenovo
- */
 public interface MessageTypes {
     String NOTE="NOTE";
     String JOIN="JOIN";
