@@ -5,10 +5,7 @@
  */
 package chatapp;
 
-/**
- *
- * @author lenovo
- */
+
 public class Message implements java.io.Serializable,MessageTypes{
     private Object content;
     private String type;
