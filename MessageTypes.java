@@ -5,8 +5,14 @@
  */
 package chatapp;
 
+/**
+ *
+ * @author lenovo
+ */
 public interface MessageTypes {
-    String NOTE="NOTE";
-    String JOIN="JOIN";
-    String LEAVE="LEAVE";
+//  public static final String NOTE="NOTE";
+//   public static final String JOIN="JOIN";
+//   public static final String LEAVE="LEAVE";
+    static final int WHOISIN = 0, MESSAGE = 1, SHUTDOWN = 2;
+
 }
