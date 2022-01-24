@@ -13,31 +13,32 @@ public class NodeInfo implements java.io.Serializable{
    private String IP;
    private int port;
    private String name;
-
+   //setter
     public void setIP(String IP) {
         this.IP = IP;
     }
-
+    //setter
     public void setPort(int port) {
         this.port = port;
     }
-
+    //setter
     public void setName(String name) {
         this.name = name;
     }
-
+    //getter
     public String getIP() {
         return IP;
     }
-
+    //getter
     public int getPort() {
         return port;
     }
-
+    //getter
     public String getName() {
         return name;
     }
-
+    
+    //constructor
     public NodeInfo(String IP, int port, String name) {
         this.IP = IP;
         this.port = port;
