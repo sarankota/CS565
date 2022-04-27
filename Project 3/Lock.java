@@ -1,5 +1,5 @@
 
-package transaction.transaction_occ_lock.server.lock;
+package transaction.transaction_lock.server.lock;
 
 
 public class Lock {
@@ -13,6 +13,7 @@ public class Lock {
     //Dont let the current transaction wait if there is some Transaction already waiting for lock to release
    if(lockRequestors > 1){
        System.out.println("Deadlock occured for Transaction ID #" + transactionID);
+       System.out.println("Transaction Aborted ID #" + transactionID);
    }
     //Thread will wait here if conflicts
     while(! checkingForConflicts(transactionID)){
